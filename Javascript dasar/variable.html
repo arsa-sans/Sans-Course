@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variable</title>
+</head>
+<body>
+  <script>
+    // var jarang digunakan
+    var nama;
+    nama = "Arsa";
+    document.writeln(nama)
+
+    document.writeln("<br>");
+    
+    var name = 'Sans';
+    document.writeln(name)
+    
+    document.writeln("<br>");
+    
+    // let
+    let buah;
+    buah = 'Mangga';
+    document.writeln(buah);
+    
+    document.writeln("<br>");
+    
+    let fruit = 'Apple';
+    document.writeln(fruit);
+    
+    document.writeln("<br>");
+    
+    // constanta
+    const phi = 3.14;
+    document.writeln(phi);
+    document.writeln("<br>");
+
+    // memanggil variable dengan string
+    document.writeln("Hai namaku ", nama)
+    document.writeln("<br>");
+    document.writeln("Hai namaku "+ name)
+    document.writeln("<br>");
+    
+    /*
+    Backtick merupakan petik “fungsional lanjutan”. Mereka memungkinkan kita mengembed variabel 
+    dan expresi ke dalam string dengan membungkus mereka dalam ${…} seperti dibawah
+    */
+   let ngaran = "Arsa"; // petik simpel
+   let sapaan = 'Hai'; // sama petik simpel
+   let perkenalan = `${sapaan} Nama aku ${ngaran}`;
+   document.writeln("<br>");
+   document.writeln(perkenalan);
+   document.writeln("<br>");
+    document.writeln(`${sapaan} namaku ${ngaran}`)
+  </script>
+</body>
+</html>
