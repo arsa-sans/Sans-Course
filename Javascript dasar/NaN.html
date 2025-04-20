@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NaN</title>
+</head>
+<body>
+  <script>
+    const value1 = Number("salah");
+    const value2 = 100;
+    const sum = value1 + value2;
+
+    document.writeln(`<p>${sum}</p>`);
+
+    document.writelnS(`<p>${parseInt("salah")}</p>`);
+    document.writelnS(`<p>${parseFloat("1.1text")}</p>`);
+
+    // Number() tidak akan mentolelir kesalahan pada data
+    document.writeln(`<p>${Number("1.1waduh")}</p>`);
+    document.writeln(`<p>${Number("1x")}</p>`);
+    document.writeln(`<p>${Number("bukan number")}</p>`);
+  </script>
+</body>
+</html>
