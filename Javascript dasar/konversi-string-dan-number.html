@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konversi String dan Number</title>
+</head>
+<body>
+  <script>
+
+    const value1 = parseInt("1");
+    const value2 = 1;
+    const sum = value1 + value2;
+
+    document.writeln(`<p>${sum}</P>`);
+    document.writeln(`<p>${parseInt(1.9)}</P>`);
+    document.writeln(`<p>${parseFloat(1.9)}</P>`);
+    document.writeln(`<p>${Number(1.9)}</P>`);
+
+    const a = 1;
+    const b = 1;
+    const total = a.toString() + b.toString();
+    document.writeln(`<p>${total}</P>`);
+
+
+  </script>
+</body>
+</html>
